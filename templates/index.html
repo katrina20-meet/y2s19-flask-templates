@@ -1,1 +1,24 @@
-<!-- Put the HTML template for your page here! -->
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+
+
+	<title> PIzzAAAA</title>
+</head>
+<body>
+
+<h1> PIzzAAA </h1>
+<p> MElted CHEese.saUSE. </p>
+
+ {% if opposite_day == True %}
+                <p> my least favourite foods are: </p>
+            {% else %}
+                <p> i eat food! my favourite are: </p>
+            {% endif %}
+            <h2> food: </h2>
+
+
+</body>
+</html>
